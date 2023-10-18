@@ -1,25 +1,17 @@
-import os
 import time
 import torch
-import math
 import yaml
-
 import numpy as np
 from torch.utils.data import DataLoader
 import torch.optim
 from torch.nn.utils import clip_grad_norm_
 from torchvision.utils import make_grid
 from data import Blender
-from utils import save_ckpt, load_ckpt, print_schedule, \
-    visualize, linear_schedule, log_mean_exp, to_rgb_from_tensor
-
+from utils import save_ckpt, print_schedule, linear_schedule
 from config import get_config
-
 from model import SLOT_VAE
 import wandb
 import os
-
-
 
 def main():
 
@@ -95,7 +87,7 @@ def main():
     args.log.phase_log = False
 
     end_time = time.time()
-    wandb.init(project='SlotVAE', name='arrow_lr1e-4')
+    wandb.init(project='SlotVAE', name='arrow')
     for epoch in range(int(args.train.start_epoch), args.train.epoch):
 
         local_count = 0
