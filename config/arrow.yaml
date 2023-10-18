@@ -1,0 +1,75 @@
+summary_dir: './summary/arrow-summary'
+model_dir: './summary/arrow-model'
+last_ckpt: ''
+
+data:
+  inp_channel: 3
+  blender_dir_list_train: [
+    'Datasets/arrow/point-out-the-wrong-guy-split/split-00000-20000/',
+    'Datasets/arrow/point-out-the-wrong-guy-split/split-20000-40000/',
+    'Datasets/arrow/point-out-the-wrong-guy-split/split-40000-60000/',
+  ]
+  blender_dir_list_test: [
+    'Datasets/arrow/point-out-the-wrong-guy-split/split-60000-80000/']
+  dataset: 'blender'
+z:
+  z_global_dim: 32
+
+arch:
+  phase_overlap: False
+  draw_step: 4
+  img_enc_dim: 128
+
+  conv:
+    img_encoder_filters: [64, 64, 64, 64, 64, 64, 128, 128, 128]
+  mlp:
+    p_global_decoder_filters: [512, 1024, 2048]
+    q_global_encoder_filters: [512, 512, 64]
+    p_global_encoder_filters: [512, 512, 64]
+  pwdw:
+    pwdw_filters: [128, 128]
+    pwdw_kernel_sizes: [1, 1]
+    pwdw_strides: [1, 1]
+    pwdw_groups: [1, 1]
+
+  structdraw:
+    rnn_decoder_hid_dim: 128
+    rnn_encoder_hid_dim: 128
+    hid_to_dec_filters: [128]
+
+
+  hidden_dims: (64, 64, 64, 64)
+  kernel_size: 5
+  in_channels: 3
+  resolution: (128, 128)
+  num_iterations: 3
+  num_slots: 5
+  slot_size: 64
+  latent_dim: 64
+  decoder_resolution: (8, 8)
+  global_latent_dim: 32
+  num_samples: 10
+  img_enc_dim: 128
+
+
+const:
+  likelihood_sigma: 0.2
+
+log:
+  print_step_freq: 2000
+
+train:
+  beta_zg_anneal_start_step: 0
+  beta_zg_anneal_end_step: 0
+  beta_zg_anneal_start_value: 0.105
+  beta_zg_anneal_end_value: 0.105
+
+  beta_zs_anneal_start_step: 0
+  beta_zs_anneal_end_step: 0
+  beta_zs_anneal_start_value: 1.
+  beta_zs_anneal_end_value: 1.
+
+  beta_aux_zs_anneal_start_step: 0
+  beta_aux_zs_anneal_end_step: 0
+  beta_aux_zs_anneal_start_value: 1.
+  beta_aux_zs_anneal_end_value: 1.
