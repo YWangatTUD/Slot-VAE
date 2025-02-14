@@ -1,7 +1,6 @@
 # **Slot-VAE: Object-Centric Compositional Image Generation with Slot Attention**
 
 ## **We propose Slot-VAE, an unsupervised approach that discovers compositional concepts from images with slot attention and reuses them for compositional image generation.**
-
 ![](/slot-vae_overview.png)
 
 [Paper](https://arxiv.org/abs/2306.06997) | [Project Page]
