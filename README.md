@@ -4,7 +4,7 @@
 
 
 
-![](../slot-vae_teaser.png)
+![](/slot-vae_teaser.png)
 
 [Paper](https://arxiv.org/abs/2306.06997) | [Project Page]
 
