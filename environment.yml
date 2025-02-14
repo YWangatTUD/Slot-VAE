@@ -1,4 +1,4 @@
-name: gnm_env
+name: slot-vae_env
 channels:
   - pytorch
   - defaults
