@@ -3,6 +3,7 @@
 ## **We propose Slot-VAE, an unsupervised approach that discovers compositional concepts from images with slot attention and reuses them for compositional image generation.**
 
 [[https://github.com/YWangatTUD/Slot-VAE/blob/main/slot-vae_teaser.pdf]]
+![](/slot-vae_teaser.pdf)
 
 [Paper](https://arxiv.org/abs/2306.06997) | [Project Page]
 
