@@ -3,6 +3,10 @@
 ## **We propose Slot-VAE, an unsupervised approach that discovers compositional concepts from images with slot attention and reuses them for compositional image generation.**
 ![](/slot-vae_overview.png)
 
+[Compositional Image Decomposition with Diffusion Models](https://arxiv.org/abs/2306.06997)
+Yanbo Wang 1, Letao Liu 2,Justin Dauwels 1
+1TU Delft, 2NTU
+
 [Paper](https://arxiv.org/abs/2306.06997) | [Project Page]
 
 
