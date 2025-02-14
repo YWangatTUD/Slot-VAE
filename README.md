@@ -5,7 +5,7 @@
 
 [Slot-VAE: Object-Centric Scene Generation with Slot Attention](https://arxiv.org/abs/2306.06997)
 
-[Yanbo Wang <sup>1</sup>](https://sps.ewi.tudelft.nl/People/bio.php?id=810), Letao Liu <sup>2</sup>, [Justin Dauwels <sup>1</sup>](https://sps.ewi.tudelft.nl/People/bio.php?id=744)
+[Yanbo Wang <sup>1</sup>](https://sps.ewi.tudelft.nl/People/bio.php?id=810), Letao Liu <sup>2</sup> (https://sps.ewi.tudelft.nl/People/bio.php?id=744), [Justin Dauwels <sup>1</sup>](https://sps.ewi.tudelft.nl/People/bio.php?id=744)
 
 <sup>1</sup> TU Delft, <sup>2</sup> NTU
 
