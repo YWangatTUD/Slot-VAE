@@ -2,7 +2,7 @@
 
 ## **We propose Slot-VAE, an unsupervised approach that discovers compositional concepts from images with slot attention and reuses them for compositional image generation.**
 
-![Slot-VAE]([https://myoctocat.com/assets/images/base-octocat.svg](/main/slot-vae_teaser.pdf))
+![Slot-VAE](https://github.com/YWangatTUD/Slot-VAE/blob/main/slot-vae_teaser.pdf)
 
 [Paper](https://arxiv.org/abs/2306.06997) | [Project Page]
 
@@ -19,4 +19,8 @@ conda activate slot-vae_env
 
 ## **Training**
 
-To train the model, run python train.py --config-file config/arrow.yaml
+To train the model, run 
+
+```
+python train.py --config-file config/arrow.yaml
+```
