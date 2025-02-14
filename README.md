@@ -7,7 +7,7 @@
 
 [Yanbo Wang <sup>1</sup>](https://sps.ewi.tudelft.nl/People/bio.php?id=810), Letao Liu <sup>2</sup>, [Justin Dauwels <sup>1</sup>](https://sps.ewi.tudelft.nl/People/bio.php?id=744)
 
-<sup>1</sup>TU Delft, <sup>2</sup>NTU
+<sup>1</sup> TU Delft, <sup>2</sup> NTU
 
 
 ## **Qualitative Results**
