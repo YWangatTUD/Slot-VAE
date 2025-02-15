@@ -14,9 +14,6 @@
 ![](/slot-vae_teaser.png)
 
 
-
-
-
 ## **Setup**
 
 Run the following to create and activate a conda environment:
@@ -25,6 +22,14 @@ Run the following to create and activate a conda environment:
 conda env create -f environment.yml
 conda activate slot-vae_env
 ```
+
+## **Datasets**
+
+| Dataset | Link |
+| ------------- | ------------- |
+| Arrow  | [link](https://rutgersconnect-my.sharepoint.com/personal/jj691_cs_rutgers_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjj691%5Fcs%5Frutgers%5Fedu%2FDocuments%2FShared%2FGNM%2FDatasets%2Farrow%2Etar%2Egz&parent=%2Fpersonal%2Fjj691%5Fcs%5Frutgers%5Fedu%2FDocuments%2FShared%2FGNM%2FDatasets&ga=1)  |
+| Objects Room  | [Link](https://github.com/google-deepmind/multi_object_datasets?tab=readme-ov-file#objects-room)  |
+| Shapestacks  | [link](https://ogroth.github.io/shapestacks/)  |
 
 ## **Training**
 
