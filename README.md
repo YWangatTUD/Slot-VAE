@@ -1,6 +1,6 @@
 # **Slot-VAE: Object-Centric Compositional Image Generation with Slot Attention**
 
-## **We propose Slot-VAE, an generative approach that discovers compositional concepts from images with slot attention and reuses them for compositional image generation.**
+## **We propose Slot-VAE, a compositional generative model that discovers compositional concepts from images with slot attention and reuses them for compositional image generation.**
 ![](/slot-vae_overview.png)
 
 [Slot-VAE: Object-Centric Scene Generation with Slot Attention](https://arxiv.org/abs/2306.06997)
